@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  margin: 40px 0;
+  font-size: 15px;
+}
+
+div {
+  background: white;
+  width: 85%;
+  height: 30%;
+}
+
+.sedans {
+  background: #e38826;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2.9em;
+  max-width: 450px;
+}
+
+h2 {
+  font-family: "Big Shoulders Display";
+  color: #f2f2f2;
+  font-size: 2em;
+}
+
+p {
+  font-family: "Lexend Deca";
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.5em;
+  padding-bottom: 2em;
+}
+
+button {
+  color: #e38826;
+  padding: 1em 2.2em;
+  background: #f2f2f2;
+  border-radius: 2em;
+  font-family: "Lexend Deca";
+  border: 2px solid #f2f2f2;
+}
+
+div.suvs {
+  background: #006970;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2.9em;
+  max-width: 450px;
+}
+
+.suvs button {
+  color: #006970;
+}
+
+div.luxury {
+  background: #004241;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2.9em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  max-width: 450px;
+}
+
+.luxury button {
+  color: #004241;
+}
+
+.sedans button:hover {
+  background: #e38826;
+  color: #f2f2f2;
+}
+
+.suvs button:hover {
+  background: #006970;
+  color: #f2f2f2;
+}
+
+.luxury button:hover {
+  background: #004241;
+  color: #f2f2f2;
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: auto 100px;
+  }
+  body .sedans {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    max-width: 310px;
+    height: 500px;
+  }
+  body .suvs {
+    max-width: 310px;
+    height: 500px;
+  }
+  body .luxury {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    max-width: 310px;
+    height: 500px;
+  }
+  body p {
+    line-height: 1.7em;
+  }
+  body h2 {
+    font-size: 2.5em;
+  }
+  body button {
+    margin-top: 2em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
